@@ -1,6 +1,6 @@
 # Resolución de diferentes problemas de carreras críticas
 
-Se aportan implementaciones para distintos problemas como puede ser el problema de los **filósofos** o **productor-consumidor** entre otros.
+Se aportan implementaciones para distintos problemas clásicos de sincronización como puede ser el problema de los **filósofos** o **productor-consumidor** entre otros.
 Se utilizan como mecanismos: semáforos, mutexes y variables de condición. Estas implementaciones se han **escrito en C**.
 
 
