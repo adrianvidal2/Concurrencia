@@ -14,12 +14,22 @@ Se utilizan como mecanismos: semáforos, mutexes y variables de condición. Esta
 Para la compilación de las implementaciones será necesario:
 ``` 
 cd <ubicacion-implementacion>
-gcc -Wall [implementacion] -lpthread -o [ejecutable]
+gcc -Wall [implementacion] -pthread -o [ejecutable]
 ```
 Para la ejecución de la implementación del problema del **barbero** se necesitará:
 ```
 cd <ubicacion-implementacion>
 ./barbero [numero-clientes]
+```
+Para poder realizar la ejecución del problema del **productor-consumidor** concurrente. En primer lugar se lanzará el productor:
+```
+cd <ubicacion-productor>
+./productor [numero-productores]
+```
+A continuación, se lanza el consumidor:
+```
+cd <ubicacion-consumidor>
+./consumidor [numero-consumidores]
 ```
 El resto de las ejecuciones se realizará de la siguiente forma:
 ```
